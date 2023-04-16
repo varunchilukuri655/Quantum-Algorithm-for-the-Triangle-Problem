@@ -4,7 +4,7 @@ Triangle counting is a graph algorithm that is used to count the number of trian
 
 # Implementation:
 
-The implementation of the triangle counting algorithm involves five main steps.
+The implementation of the triangle counting algorithm in classical computing involves five main steps.
 
 1. The first step involves selecting a programming language for implementation. In this case, we have selected Python.
 
