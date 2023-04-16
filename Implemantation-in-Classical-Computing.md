@@ -28,8 +28,11 @@ In conclusion, the triangle counting algorithm is a useful tool for graph analys
 The time complexity of the code can be analyzed as follows:
 
 Step 2: Creating the adjacency matrix takes O(n^2) time, as it involves iterating over each vertex pair and asking for input.
+
 Step 3: Computing the matrix power A^2 takes O(n^3) time, as it involves iterating over each entry of the matrix and performing a dot product operation. Computing A^3 and the diagonal subtraction take O(n^3) time each as well, so the overall time complexity of this step is O(n^3).
+
 Step 4: Extracting the triangles from the matrix product involves iterating over each entry of A3 and checking whether the corresponding vertex pairs form a triangle. This takes O(n^3) time in the worst case, as there can be n^3 possible vertex triplets to check.
+
 Step 5: Printing the results takes O(n^2) time, as it involves iterating over each entry of the adjacency matrix and the list of triangles.
 Therefore, the overall time complexity of the algorithm is O(n^3).
 
