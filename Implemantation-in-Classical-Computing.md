@@ -6,15 +6,11 @@ Triangle counting is a graph algorithm that is used to count the number of trian
 
 ### The implementation of the triangle counting algorithm in classical computing involves five main steps.
 
-1. The first step involves selecting a programming language for implementation. In this case, we have selected Python.
+The algorithm implemented here takes an input graph in the form of an adjacency matrix and checks for the presence of triangles. The algorithm starts by asking the user to input the number of vertices in the graph and whether the vertices are connected or not.
 
-2. The second step involves converting the given graph to an adjacency matrix. An adjacency matrix is a square matrix used to represent a finite graph. Each row and column represent a vertex, and the matrix element (i,j) represents an edge between vertex i and vertex j.
+Next, the adjacency matrix of the graph is created using the user input. The algorithm then checks for the presence of triangles in the graph. This is done by computing the cube of the adjacency matrix and subtracting the diagonal elements of the resulting matrix.
 
-3. The third step involves using matrix multiplication to compute the cube of the adjacency matrix. The matrix product is computed as A^3 = A * A^2. The diagonal elements of the resulting matrix represent the number of triangles that include a given vertex.
-
-4. The fourth step involves extracting the triangles from the matrix product. The algorithm checks for each vertex if a triangle exists or not by looking for a non-zero value in the corresponding position in the matrix.
-
-5. Finally, the fifth step involves printing the overall triangles in the graph.
+The algorithm then checks each vertex for the presence of triangles and prints out the triangles for each vertex. Finally, the algorithm prints out the overall triangles in the graph along with the count of triangles in the graph.
 
 # Observations:
 ### The interesting observations or insights that our team noticed while implementing the algorithm.
