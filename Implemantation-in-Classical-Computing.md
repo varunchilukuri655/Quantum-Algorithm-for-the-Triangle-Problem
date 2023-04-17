@@ -4,7 +4,7 @@ Triangle counting is a graph algorithm that is used to count the number of trian
 
 # Implementation:
 
-The implementation of the triangle counting algorithm in classical computing involves five main steps.
+### The implementation of the triangle counting algorithm in classical computing involves five main steps.
 
 1. The first step involves selecting a programming language for implementation. In this case, we have selected Python.
 
@@ -17,15 +17,17 @@ The implementation of the triangle counting algorithm in classical computing inv
 5. Finally, the fifth step involves printing the overall triangles in the graph.
 
 # Observations:
-The interesting observations or insights that our team noticed while implementing the algorithm.
+### The interesting observations or insights that our team noticed while implementing the algorithm.
 
-During the implementation of the algorithm, we observed that the matrix multiplication approach is more efficient than the brute force approach for triangle counting. The brute force approach involves checking all possible combinations of three vertices, which can be computationally expensive for large graphs. In contrast, the matrix multiplication approach involves computing the cube of the adjacency matrix, which is more efficient and scalable.
+During the implementation of the algorithm, we observed that the matrix multiplication approach is more efficient than the brute force approach for triangle counting. The brute force approach involves checking all possible combinations of three vertices, which can be computationally expensive for large graphs. In contrast, the matrix multiplication approach involves computing the cube of the adjacency matrix, which is more efficient and scalable. 
+
+We also noticed that the number of triangles in a graph can be used to determine the clustering coefficient, which is a measure of how closely the nodes in a graph tend to cluster together.
 
 In conclusion, the triangle counting algorithm is a useful tool for graph analysis, and its implementation can be optimized using matrix multiplication.
 
 # Efficiency:
 
-The time complexity of the code can be analyzed as follows:
+### The time complexity of the code can be analyzed as follows:
 
 Step 2: Creating the adjacency matrix takes O(n^2) time, as it involves iterating over each vertex pair and asking for input.
 
