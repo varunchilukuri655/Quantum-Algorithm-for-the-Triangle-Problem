@@ -12,7 +12,7 @@ The quantum algorithm for the Triangle Problem can be implemented using a Quantu
 
 In the Preprocessing phase, the algorithm constructs a quantum state representing the graph by encoding the adjacency matrix of the graph into a quantum register. This is done by initializing a superposition of all possible vertex subsets and using the adjacency matrix to generate a quantum walk operator.
 
-### Query phase
+### Query phase:
 
 In the Query phase, the algorithm applies the Grover search algorithm to find a triangle in the graph. This is done by initializing a quantum state corresponding to a superposition of all possible triangle configurations and using the Grover algorithm to amplify the amplitude of the desired state. The desired state corresponds to the presence of a triangle in the graph.
 
