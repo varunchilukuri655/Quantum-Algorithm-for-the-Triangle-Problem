@@ -20,6 +20,9 @@ In the Query phase, the algorithm applies the Grover search algorithm to find a 
 
 ### The interesting observations or insights that our team noticed while implementing the algorithm.
 
+We noticed that the choice of the number of iterations in the GroverSearch operation is critical for the performance of the algorithm. Too few iterations will not find all the triangles, while too many iterations will result in a decrease in performance. Finding the optimal number of iterations is an open research question in quantum computing.
+
+
 The Triangle Problem is a problem in Graph Theory where you have to find the number of triangles in a given undirected graph.
 
 The Grover's Algorithm can be used to solve this problem faster than classical computing.
