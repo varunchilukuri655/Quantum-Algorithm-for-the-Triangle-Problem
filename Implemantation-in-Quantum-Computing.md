@@ -30,6 +30,8 @@ The `CountTriangles` operation is a classical implementation of triangle countin
 
 The `SolveTriangleProblem` operation is the main entry point of the program. It initializes the qubits, runs the quantum algorithm, measures the result, and returns the number of triangles found and the measurement results.
 
+The measurement results show the final state of the qubits in the quantum register after the algorithm runs. The quantum computer measures the final state of the qubits, collapsing each qubit to either a 0 or 1, and the results are random and depend on the probability amplitudes. In the triangle problem, a measurement result of 1 means the quantum computer found a triangle in the graph, and 0 means it didn't.
+
 # Efficiency:
 
 Quantum algorithm implemented in this code uses Grover's search to search for triangles in a graph, which has a runtime of roughly O(N^3/2), where N is the number of vertices in the graph. This is faster than the best-known classical algorithms, which have a runtime of O(N^3).
